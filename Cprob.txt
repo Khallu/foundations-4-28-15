@@ -1,0 +1,93 @@
+
+Problem 1:    
+
+                 Write a program to get a number from the user and print the  
+                  reverse of it.
+
+                 Note - Do not Use Arrays. Use only (+,-,*./,%) operators.
+
+Problem 2:
+
+                 Write a program to print total number of THREE digit Prime 
+                  numbers
+
+Problem 3:
+
+                 Write a Program to Print the largest eight digit prime number
+
+Problem 4:
+
+                 Write a program to find out the total number of prime numbers 
+                 below 100,000,000 have the sum of their digits equal to 14?
+
+Problem 5:
+
+                 Write a program to get a user input as Integer variable using 
+                  “scanf”. Convert the integer into character string and print the 
+                  same as string  using “printf”. Do not use any library functions 
+                  except scanf & printf.
+
+                          // declare variables
+                          printf("Enter Number : ");
+                          scanf("%d",&x);
+                         // write the code
+                          printf("Entered Number = ");
+                          printf("%s\n",y);
+
+
+Problem 6:
+
+                 Write a program to get TWO numbers from user up to 50 digit 
+                 each and print the sum of the numbers. The numbers can be 
+                 negative. Use functions to implement this.
+
+                  Note:	
+                         Do not accept Invalid numbers
+                         Do not print leading zeros
+                         Each number can be of different digit
+
+Problem 7:
+
+                 Write a Calculator program which will give "Calc" prompt and 
+                 always stay on this prompt. When user types one of the 
+                 following  command, the program will calculate and give result. 
+                 Typing "Exit" will exit from the Calculator program. This 
+                 program accepts up to 50 digit number. Division will give         
+                 quotient  and remainder.
+
+Calc> 12345678967354748+9876546877687678678678678	     - Addition
+Calc> 12345678995387837883748798-8738478937937498237	- Subtraction
+Calc> 123478763783847239874 * 34837472384723894732	- Multiplication
+Calc> 1233489374983933498398095/3487384	- Division
+Calc> Exit	- Quit
+
+Note:
+         Do not accept Invalid numbers
+         Do not print leading zeros
+         Use functions and write a professional program use Linux coding style
+         Each number can be of different digit 
+         Make sure that all the Input conditions are take care
+         Try to minimize the execution speed	
+
+Problem 8:
+
+                 Create a sample linked list with about 5 entries using the                
+                 following  structure.  Insert a new entry before or after a given id.
+                 Delete an entry of a given id.
+
+                 Menu Items
+
+                 1. Insert Entry
+                 2. Delete Entry
+                 3. Display List
+                 4. Exit
+
+             struct student {
+                         int id;
+                         int Maths;
+                         int Science;
+                         struct student *next;
+                        }
+-------------------------------------------------------------------------------
+
+    All the best.
